@@ -17,8 +17,25 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
+
+  #Gems for Mongoid  
   s.add_dependency "mongoid", "~> 2.2"
-  # s.add_dependency "jquery-rails"
+  s.add_dependency "bson_ext", "~> 1.3"
+  
+  #Gems for authorization/roles
+  s.add_dependency "devise", "~> 1.1"
+  s.add_dependency "cancan", "~> 1.6"
+  
+  #Gems for searching/indexing
+  s.add_dependency "indextank", "~> 1.0"
+  
+  #Gems for inbound email
+  
+  #Gems for file uploads and storage
+  s.add_dependency "carrierwave", "~> 0.5"
+
+
+  s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
 end

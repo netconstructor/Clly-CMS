@@ -13,20 +13,3 @@ gemspec
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-#Gems for Mongoid
-gem "mongoid", "~> 2.2"
-gem "bson_ext", "~> 1.3"
-
-#Gems for authorization/roles
-gem "devise", "~> 1.1"
-gem "cancan", "~> 1.6"
-
-#Gems for searching/indexing
-gem "indextank", "~> 1.0"
-
-#Gems for inbound email
-
-#Gems for file uploads and storage
-gem "carrierwave", "~> 0.5"
-
-gem "jquery-rails"

@@ -2,6 +2,13 @@ PATH
   remote: .
   specs:
     cllycms (0.0.1)
+      bson_ext (~> 1.3)
+      cancan (~> 1.6)
+      carrierwave (~> 0.5)
+      devise (~> 1.1)
+      indextank (~> 1.0)
+      jquery-rails
+      mongoid (~> 2.2)
       rails (~> 3.1.0)
 
 GEM
@@ -39,13 +46,13 @@ GEM
     addressable (2.2.6)
     arel (2.2.1)
     bcrypt-ruby (3.0.1)
-    bson (1.3.1)
-    bson_ext (1.3.1)
+    bson (1.4.0)
+    bson_ext (1.4.0)
     builder (3.0.0)
     cancan (1.6.5)
     carrierwave (0.5.7)
       activesupport (~> 3.0)
-    devise (1.4.5)
+    devise (1.4.6)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
       warden (~> 1.0.3)
@@ -53,7 +60,7 @@ GEM
     faraday (0.7.4)
       addressable (~> 2.2.6)
       multipart-post (~> 1.1.0)
-      rack (>= 1.1.0, < 2)
+      rack (< 2, >= 1.1.0)
     faraday-stack (0.1.3)
       faraday (~> 0.6)
     hike (1.2.1)
@@ -69,8 +76,8 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    mongo (1.3.1)
-      bson (>= 1.3.1)
+    mongo (1.4.0)
+      bson (= 1.4.0)
     mongoid (2.2.0)
       activemodel (~> 3.0)
       mongo (~> 1.3)
@@ -79,7 +86,7 @@ GEM
     multipart-post (1.1.3)
     orm_adapter (0.0.5)
     polyglot (0.3.2)
-    rack (1.3.2)
+    rack (1.3.3)
     rack-cache (1.0.3)
       rack (>= 0.4)
     rack-mount (0.8.3)
@@ -118,18 +125,11 @@ GEM
     tzinfo (0.3.29)
     warden (1.0.5)
       rack (>= 1.0)
-    yajl-ruby (0.8.3)
+    yajl-ruby (1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bson_ext (~> 1.3)
-  cancan (~> 1.6)
-  carrierwave (~> 0.5)
   cllycms!
-  devise (~> 1.1)
-  indextank (~> 1.0)
-  jquery-rails
-  mongoid (~> 2.2)
   sqlite3
