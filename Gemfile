@@ -28,3 +28,5 @@ gem "indextank", "~> 1.0"
 
 #Gems for file uploads and storage
 gem "carrierwave", "~> 0.5"
+
+gem "jquery-rails"
