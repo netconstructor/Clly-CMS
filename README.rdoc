@@ -1,0 +1,24 @@
+= Cllycms
+
+This project rocks and uses MIT-LICENSE.
+
+-integrate backbone.js
+-content/templates in GIT
+-drag&drop file upload
+-roles and multi-sites with shared content and content variants
+-versioning with visual diff
+-facebook/twitter omnisocial integration
+-dojo toolkit
+-nosql database and syncing (maybe couchdb instead)
+-index tank full text search
+-micro-templating/jquery templating
+
+-Other tech: coffeescript, zapto, stitch, eco, formtastic, google closure templates, Google SEO, Google Speed, node.js, pubsub, gridfs
+
+cloudmailin
+liquid
+delayed job
+carrierwave
+stillalive
+hoptoad
+gem install indextank
