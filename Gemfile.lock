@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cllycms (0.0.1)
+    cllycms (0.0.2)
       bson_ext (~> 1.3)
       cancan (~> 1.6)
       carrierwave (~> 0.5)
@@ -132,4 +132,5 @@ PLATFORMS
 
 DEPENDENCIES
   cllycms!
+  mongoid
   sqlite3
