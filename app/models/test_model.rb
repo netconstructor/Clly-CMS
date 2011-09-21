@@ -1,4 +1,0 @@
-class TestModel
-
-
-end
