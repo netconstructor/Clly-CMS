@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "bson_ext", "~> 1.3"
   
   #Gems for authorization/roles
-  s.add_dependency "devise", "~> 1.1"
+  s.add_dependency "devise", "~> 1.4"
   s.add_dependency "cancan", "~> 1.6"
   
   #Gems for searching/indexing
