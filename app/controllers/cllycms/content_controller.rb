@@ -1,7 +1,8 @@
 module Cllycms
   class ContentController < ApplicationController
     require 'mail'
-    require 'mongoid'
+    #require 'mongoid'
+    before_filter :authenticate_user!
     skip_before_filter :verify_authenticity_token
    
     def index
